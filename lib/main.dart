@@ -6,7 +6,7 @@ import 'plus/example_scaffold.dart';
 
 void main() => runApp(
       MaterialApp(
-        title: 'Html Editor Plus Demo',
+        title: 'Html Editor Demo',
         theme: ThemeData(useMaterial3: false),
         darkTheme: ThemeData.dark(useMaterial3: false),
         home: const HtmlEditorPlusExample(),

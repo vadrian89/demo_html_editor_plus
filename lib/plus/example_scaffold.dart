@@ -135,7 +135,7 @@ class _HtmlEditorPlusExampleState extends State<HtmlEditorPlusExample> {
       );
 
   AppBar get _appBar => AppBar(
-        title: const Text('HtmlEditorPlus Example'),
+        title: const Text('Html Editor Demo'),
         actions: [
           AppBarIconButton(
             icon: Icons.refresh,
