@@ -34,14 +34,11 @@ dependencies:
   html_editor_plus: ^0.0.4
 
 dev_dependencies:
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.3.9
   flutter_test:
     sdk: flutter
+  icons_launcher: ^2.1.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -78,3 +75,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+icons_launcher:
+  image_path: "assets/images/logo.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/images/logo.png"

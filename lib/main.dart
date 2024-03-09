@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'plus/example_scaffold.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   const primaryColor = Color(0xFF009688);
   final colorScheme = ColorScheme.fromSeed(seedColor: primaryColor);
   final darkColorScheme = ColorScheme.fromSeed(
