@@ -8,6 +8,7 @@ void main() => runApp(
       MaterialApp(
         title: 'Html Editor Plus Demo',
         theme: ThemeData(useMaterial3: false),
+        darkTheme: ThemeData.dark(useMaterial3: false),
         home: const HtmlEditorPlusExample(),
       ),
     );
